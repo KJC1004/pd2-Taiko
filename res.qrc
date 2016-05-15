@@ -6,17 +6,12 @@
         <file>image/troll2.jpg</file>
         <file>image/troll3.jpg</file>
         <file>image/troll4.jpg</file>
-        <file>image/troll5.jpg</file>
-        <file>image/troll6.jpg</file>
-        <file>image/troll7.jpg</file>
-        <file>image/troll8.jpg</file>
-        <file>image/troll9.jpg</file>
         <file>image/troll0.jpg</file>
-        <file>image/troll10.jpg</file>
         <file>image/notes.png</file>
         <file>image/explosion_lower.png</file>
         <file>image/playbutton.png</file>
         <file>image/powerbutton.png</file>
+        <file>image/troll5.jpg</file>
     </qresource>
     <qresource prefix="/sound">
         <file>sound/smb_bump.wav</file>

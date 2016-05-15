@@ -19,9 +19,10 @@ Dialog::~Dialog()
     delete ui;
 }
 
-void Dialog::gameEnd(const int &score){
+void Dialog::gameEnd(int score){
     endSound->play();
-    QImage bg(":/image/image/troll"+QString::number(qrand()%11)+".jpg");
+    int type = (score<100? 0: (score<200? 2: 4)) + qrand()%2;
+    QImage bg(":/image/image/troll"+QString::number(type)+".jpg");
     scene->setBackgroundBrush(bg.scaled(510,510,Qt::IgnoreAspectRatio,Qt::SmoothTransformation));
     ui->label->setText("SCORE  :  " + QString::number(score));
     show();

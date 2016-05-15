@@ -23,7 +23,7 @@ signals:
     void quit();
 
 private slots:
-    void gameEnd(const int &);
+    void gameEnd(int);
     void on_pushButton_exit_clicked();
     void on_pushButton_retry_clicked();
 
